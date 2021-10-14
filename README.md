@@ -20,13 +20,13 @@ A fullstack web application that uses MondoDB as its database and Mongoose npm p
 
 ## Technologies :
 
-    - MongoDB
-    - MongoDB Atlas
-    - Mongoose
-    - HTML
-    - CSS
-    - Javascript
-    - Chart.js
+- MongoDB
+- MongoDB Atlas
+- Mongoose
+- HTML
+- CSS
+- Javascript
+- Chart.js
 
 ## Installation :
 
