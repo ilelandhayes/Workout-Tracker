@@ -32,7 +32,9 @@ A fullstack web application that uses MondoDB as its database and Mongoose npm p
 
 To use the application just run:
 
-'npm install' in your terminal
+    - 'npm install'
+
+in your terminal
 
 ## Usage Of :
 
