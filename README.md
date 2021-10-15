@@ -6,17 +6,17 @@ A fullstack web application that uses MondoDB as its database and Mongoose npm p
 
 ## Table of Contents
 
-[Installation](https://github.com/ilelandhayes#Installation)
+[Installation](https://github.com/ilelandhayes/Workout-Tracker#Installation)
 
-[Usage Of](https://github.com/ilelandhayes#Usage-Of)
+[Usage Of](https://github.com/ilelandhayes/Workout-Tracker#Usage-Of)
 
-[How to Contribute](https://github.com/ilelandhayes#How-to-Contribute)
+[How to Contribute](https://github.com/ilelandhayes/Workout-Tracker#How-to-Contribute)
 
-[Screen Shots](https://github.com/ilelandhayes#Screen-Shots)
+[Screen Shots](https://github.com/ilelandhayes/Workout-Tracker#Screen-Shots)
 
-[License](https://github.com/ilelandhayes#License)
+[License](https://github.com/ilelandhayes/Workout-Tracker#License)
 
-[Questions](https://github.com/ilelandhayes#Questions)
+[Questions](https://github.com/ilelandhayes/Workout-Tracker#Questions)
 
 ## Technologies :
 
@@ -32,7 +32,7 @@ A fullstack web application that uses MondoDB as its database and Mongoose npm p
 
 To use the application just run:
 
-    - 'npm install'
+    'npm install'
 
 in your terminal
 
