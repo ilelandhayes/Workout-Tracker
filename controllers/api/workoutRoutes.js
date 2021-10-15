@@ -12,8 +12,8 @@ router.get('/', async ({ res }) => {
 
 router.post('/', async ({ body }, res) => {
     try {
-        const dbNewWorkout = await db.Workout.create(body);
-        res.status(200).json(dbNewWorkout);
+        const dbNewWorkouts = await db.Workout.create(body);
+        res.status(200).json(dbNewWorkouts);
     } catch (err) {
         err && res.status(500).json(err);
     }
@@ -21,7 +21,7 @@ router.post('/', async ({ body }, res) => {
 
 router.put('/:id', async ({ params, body }, res) => {
     try {
-        const dbUpdatedWorkout = await db.Workout.findByIdAndUpdate(
+        const dbUpdatedWorkouts = await db.Workout.findByIdAndUpdateOne(
             params.id,
             { $push: { exercises: body } },
             { 
@@ -29,7 +29,7 @@ router.put('/:id', async ({ params, body }, res) => {
                 runValidators: true,
             }
         );
-        res.status(200).json(dbUpdatedWorkout);
+        res.status(200).json(dbUpdatedWorkouts);
     } catch (err) {
         err && res.status(500).json(err);
     }
