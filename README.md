@@ -42,6 +42,12 @@ Users can track their workouts, ranging from how many sets/reps are being done p
 
 ## Screen Shots :
 
+![Website View](./screen-shots/ScreenShot2021-10-15at433.23PM.png)
+
+![Website View](./screen-shots/ScreenShot2021-10-15at4.33.57PM.png)
+
+![Website View](./screen-shots/ScreenShot2021-10-15at4.34.53PM.png)
+
 ## How to Contribute :
 
 Any contributions are welcome!
