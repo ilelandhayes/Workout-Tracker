@@ -1,9 +1,9 @@
 const router = require("express").Router();
 const db = require("../../models");
 
-router.get("/", async ({ res }) => {
+router.get('/', async ({ res }) => {
     try {
-        const dbWorkouts = await db.workouts.find({});
+        const dbWorkouts = await db.Workout.find({});
         res.status(200).json(dbWorkouts);
     } catch (err) {
         err && res.status(500).json(err);
